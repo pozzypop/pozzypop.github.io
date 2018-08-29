@@ -1,0 +1,94 @@
+.menu {
+    width: 320px;
+    height: 480px;
+    outline: 1px solid yellow;
+    background-color: #06105a;
+}
+
+.game {
+    width: 320px;
+    height: 480px;
+    outline: 1px solid yellow;
+    background-color: #000d62;
+}
+
+.menu_b {
+    color: #D2C61C;
+    width: 80%;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 10%;
+    border: none;
+    border-radius: 7px;
+    background: #afa;
+    font-size: 25px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.menu_b:hover {
+    color: gold;
+    transform: scale(1.1);
+}
+
+.menu_b:active {
+    color: gold;
+    transform: scale(1.1);
+}
+
+.logo {
+    background-color: #4b4ff6;
+    color: #e10a00;
+    text-align: center;
+}
+
+.menu_game {
+    font-size: 20px;
+    width: 320px;
+    height: 40px;
+    outline: 1px solid yellow;
+}
+
+.game_button {
+    background-color: royalblue;
+    font-size: 20px;
+    height: 40px;
+    width: 32.25%;
+    transition: 0.5s linear;
+}
+
+.game_button:hover {
+    background-color: #4e0809;
+    border: 1px solid red;
+    color: firebrick;
+}
+
+#balance {
+    text-align: center;
+    color: gold;
+}
+
+#click {
+    border-radius: 100%;
+}
+
+.shopp {
+    width: 320px;
+    height: 480px;
+    outline: 1px solid yellow;
+    background-color: #000d62;
+}
+
+.settings {
+    width: 320px;
+    height: 480px;
+    outline: 1px solid yellow;
+    background-color: #000d62;
+}
+
+.settings_button {
+    background-color: royalblue;
+    font-size: 150%;
+}

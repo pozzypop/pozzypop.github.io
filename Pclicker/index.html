@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Pclicker 3.0</title>
+        <script src="framework/jquery-3.3.1.min.js"></script>
+        <link href="css.css" rel="stylesheet"/>
+        <script src="js.js"></script>
+    </head>
+
+
+    <body>
+
+        <div class="menu">
+
+            <h1 class="logo">►PCLICKER◄</h1>
+
+            <button class="menu_b" id="aa" onClick='play()'>Play</button>
+            <button class="menu_b" onClick='settings()' id="set">Settings</button>
+
+        </div>
+
+        <div class="game">
+            <div class="menu_game">
+
+                <button class="game_button" onClick="game()" id='ga'>Game</button>
+                <button class="game_button" id="sh" onClick="shop()">Shop</button>
+                <button class="game_button" id="exx" onClick="exit()">Exit</button>
+
+            </div>
+            <h1 id="balance">0</h1>
+            <button class='menu_b' onClick="clickk()" id="click">☻Click☻</button>
+
+        </div>
+
+        <div class="shopp">
+            <div class="menu_game">
+
+                <button class="game_button" id="gaa" onClick="play()">Game</button>
+                <button class="game_button" id="shh" onClick="shop()">Shop</button>
+                <button class="game_button" id="exxx" onClick="exit()">Exit</button>
+
+            </div><hr><br>
+
+            <button class="game_button" onclick="shop_a()">++(50)</button>
+
+        </div>
+
+        <div class="settings">
+            <div class="menu_game">
+
+                <button class="game_button" id="ex" onClick="exit()">Exit</button>
+
+            </div><br>
+                <button class="settings_button" id="lang" onClick="laungle()">laungle: ENG</button>
+        </div>
+
+    </body>
+</html>
